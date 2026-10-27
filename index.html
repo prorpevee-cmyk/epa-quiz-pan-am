@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#001428">
+  <title>Planeje sua licença americana | Quiz EPA</title>
+  <meta name="description" content="Responda a seis perguntas e descubra o que organizar no seu planejamento para o ATP da FAA. Um quiz da EPA para o Roadshow Pan Am.">
+  <meta property="og:title" content="Você está pronto para planejar sua licença americana?">
+  <meta property="og:description" content="Seis perguntas para entender seu momento e organizar seu próximo passo.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="epa-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="quiz.css">
+  <script type="module" src="quiz.js"></script>
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="compass" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13"/><path d="m22 10-4 8-8 4 4-8 8-4Z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#experience">Ir para o quiz</a>
+  <div class="quiz-layout">
+    <aside class="brand-panel" aria-labelledby="quiz-headline">
+      <img class="brand-photo" src="cockpit.webp" alt="" width="1092" height="1441">
+      <a href="roadshow.html" class="brand-link" aria-label="EPA Training Center — página do Roadshow"><img src="epa-logo-white-preview.png" alt="EPA Training Center" width="380" height="150"></a>
+      <div class="brand-copy">
+        <span class="red-line" aria-hidden="true"></span>
+        <h1 id="quiz-headline">Você está pronto para planejar sua licença americana?</h1>
+        <p>Descubra o que já está claro no seu plano e o que vale entender antes de buscar o ATP da FAA.</p>
+      </div>
+      <div class="brand-bottom"><span>EPA Training Center</span><span>Roadshow Pan Am</span></div>
+    </aside>
+    <main id="experience" class="experience" tabindex="-1">
+      <div class="experience-top"><span>Quiz de planejamento</span><a href="roadshow.html">Conhecer o Roadshow <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      <div id="quiz-root" class="quiz-root">
+        <section class="welcome" aria-labelledby="welcome-title">
+          <div class="intro-icon" aria-hidden="true"><svg><use href="#compass"/></svg></div>
+          <h2 id="welcome-title" tabindex="-1">Seu próximo passo começa com clareza.</h2>
+          <p class="intro-text">Responda a seis perguntas sobre o seu momento. Ao final, você recebe um perfil de planejamento e três pontos para organizar.</p>
+          <ol class="welcome-route">
+            <li><span class="route-number">01</span><div><strong>Seu ponto de partida</strong><span>Objetivos e momento na aviação.</span></div></li>
+            <li><span class="route-number">02</span><div><strong>O que falta esclarecer</strong><span>Treinamento, organização e inglês.</span></div></li>
+            <li><span class="route-number">03</span><div><strong>Seu próximo passo</strong><span>Prioridades para seguir planejando.</span></div></li>
+          </ol>
+          <button class="primary-button" id="start-quiz" type="button">Começar o quiz <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+          <p class="small-note">6 perguntas · Resultado na hora · Sem cadastro para responder</p>
+          <noscript><p>Ative o JavaScript para responder ao quiz ou <a href="roadshow.html#inscricao">conheça o Roadshow Pan Am</a>.</p></noscript>
+        </section>
+      </div>
+      <footer class="experience-footer">Um ponto de partida para conversar sobre seus objetivos.</footer>
+    </main>
+  </div>
+</body>
+</html>
